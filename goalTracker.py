@@ -10,7 +10,7 @@ from openpyxl import load_workbook
 from datetime import date
 
 
-## Create the wb
+## Create the wb (uncomment to create)
 #wb = Workbook()
 ## Create sheet names (meditate, walk, read)
 #walkSheet = wb.active
@@ -24,9 +24,6 @@ from datetime import date
 
 # Load the wb
 wb = load_workbook(filename = "goal-tracker.xlsx")
-
-
-currSheet = str()
 
 # 1. Prompt user for activity (perhaps: "Are you sure?")
 def chooseColor():
